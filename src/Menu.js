@@ -17,7 +17,7 @@ const Menu = () => {
                                 </div>
                                 <div className="deteil">
                                     <div className="menu_price">
-                                        <p>{items.price}</p>
+                                        <p> price: {items.price}</p>
                                     </div>
                                     <div className="menu_order">
                                         <p>{items.order}</p>

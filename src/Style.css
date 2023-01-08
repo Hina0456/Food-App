@@ -126,7 +126,15 @@ html {
 
 }
 
-.main_sec2 div {
+.main_sec2_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_sec2 .main_sec2_card div {
     width: 25%;
     display: flex;
     justify-content: center;
@@ -171,7 +179,9 @@ html {
 }
 
 .menu_main{
-    box-shadow: 0px 1px rgb(224, 224, 224);
+    box-shadow: 5px 5px 10px rgb(224, 224, 224);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .menu_img {

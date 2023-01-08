@@ -11,21 +11,35 @@ const Main = () => {
                 </div>
                 <div className="main_sec2" >
                     <div className="Image">
-                        <div>
-                            <img src="https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                        <div className="main_sec2_card">
+                            <div>
+                                <img src="https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                            </div>
+                            <p>Sweet</p>
                         </div>
-                        <div>
-                            <img src="https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&w=600" />
+
+                        <div className="main_sec2_card">
+                            <div>
+                                <img src="https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&w=600" />
+                            </div>
+                            <p>Healthy</p>
                         </div>
-                        <div>
-                            <img src="https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=600" />
+
+                        <div className="main_sec2_card">
+                            <div>
+                                <img src="https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                            </div>
+                            <p>Classic</p>
                         </div>
+                        
+                        
+                       
                     </div>
-                    <div className="main_img_name">
+                    {/* <div className="main_img_name">
                         <p>Sweet</p>
                         <p>Healthy</p>
-                        <p>Classic</p>
-                    </div>
+                        
+                    </div> */}
                 </div>
             </div>
         </>
