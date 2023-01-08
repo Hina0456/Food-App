@@ -35,11 +35,7 @@ const Main = () => {
                         
                        
                     </div>
-                    {/* <div className="main_img_name">
-                        <p>Sweet</p>
-                        <p>Healthy</p>
-                        
-                    </div> */}
+
                 </div>
             </div>
         </>

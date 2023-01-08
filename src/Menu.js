@@ -11,7 +11,7 @@ const Menu = () => {
                             <div className="menu_img">
                                 <img src={items.imgsrc} />
                             </div>
-                            <div className="" menu_deteil >
+                            <div className=" menu_deteil" >
                                 <div className="menu_name">
                                     <p>{items.name}</p>
                                 </div>
@@ -20,14 +20,14 @@ const Menu = () => {
                                         <p> price: {items.price}</p>
                                     </div>
                                     <div className="menu_order">
-                                        <p>{items.order}</p>
+                                        <p>Orders till now:{items.order}</p>
                                     </div>
                                     <div className="time">
-                                        <p>{items.time}</p>
+                                        <p>Home Delivery Time:{items.time}</p>
                                     </div>
 
                                     <div className="quality">
-                                        <p>{items.quality}</p>
+                                        <p>Quality:{items.quality}</p>
                                     </div>
                                 </div>
                             </div>
